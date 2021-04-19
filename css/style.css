@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+}
+
+header{
+    height: 100px;
+    background-color: #4EA0FF;
+    background-image:url("C:/Users/rakaro/Documents/boolean/Es/htm-css-booleaner/img/pattern.png");
+    background-size:390px;
+    background-position: right top;
+}
+
+#logo{
+    height: 60%;
+    padding-top: 30px;
+}
