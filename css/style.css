@@ -39,10 +39,25 @@ h1{
     font-size: 12px;
 }
 
-.testo-evidenziato{
+.testo-giallo{
     background-color: yellow;
 }
 
 ul{
     padding-left: 15px;
 }
+
+thead{
+    color: white;
+    background-color:#20A9E5;
+}
+table{
+    border-spacing: 0px;
+    text-align: left;
+    width: 100%;
+}
+
+/* seleziona gli elementi dispari di ogni tr figlio  di tbody */
+tbody tr:nth-child(odd){
+    background-color:#B1E5F2;
+  }
