@@ -28,7 +28,7 @@ main{
     width: 55%;
     margin: auto;
 }
-
+/* titolo e autore */
 h1{
     font-size: 40px;
     
@@ -42,6 +42,8 @@ h1{
     color: #24AAE5;
 }
 
+
+/* immagini tim  */
 .didascalia{
     font-size: 12px;
 }
@@ -54,6 +56,7 @@ ul{
     padding-left: 15px;
 }
 
+/* tabella  */
 thead{
     color: white;
     background-color:#20A9E5;
@@ -75,19 +78,21 @@ tbody tr:nth-child(odd){
     font-size: 17px;
 }
 
+/* sezione immagini a fine pagina */
 .img-container{
     height: 220px;
     width: 270px;
     color: white;
     font-size: 25px;
     font-weight: bold;
+    background-repeat: no-repeat;
 
 }
 #immagine1{
      background-image: url(../img/monitor.jpg);
-     background-repeat: no-repeat;
+     
 }
 #immagine2{
     background-image: url(../img/graph.jpg);
-    background-repeat: no-repeat;
+   
 }
