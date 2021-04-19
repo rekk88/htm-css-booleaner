@@ -42,3 +42,7 @@ h1{
 .testo-evidenziato{
     background-color: yellow;
 }
+
+ul{
+    padding-left: 15px;
+}
