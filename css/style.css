@@ -8,6 +8,7 @@ header{
     background-image:url("../img/pattern.png");
     background-size:390px;
     background-position: right top;
+    background-position-x: 75px;
 }
 
 #logo{
