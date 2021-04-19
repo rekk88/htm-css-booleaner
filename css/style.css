@@ -38,3 +38,7 @@ h1{
 .didascalia{
     font-size: 12px;
 }
+
+.testo-evidenziato{
+    background-color: yellow;
+}
