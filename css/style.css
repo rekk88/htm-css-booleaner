@@ -3,10 +3,11 @@
     margin-right: 0px;
 }
 
+
 body{
     margin-top: 0px;
 }
-
+/* header */
 header{
     height: 100px;
     background-color: #4EA0FF;
@@ -16,15 +17,16 @@ header{
     background-position-x: 75px;
 }
 
-main{
-    width: 55%;
-    margin: auto;
-}
-
 #logo{
     height: 60%;
     padding-top: 30px;
     padding-left: 22.4%;
+}
+
+/* main */
+main{
+    width: 55%;
+    margin: auto;
 }
 
 h1{
@@ -66,3 +68,26 @@ table{
 tbody tr:nth-child(odd){
     background-color:#B1E5F2;
   }
+
+.testo-grigio{
+    color: grey;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.img-container{
+    height: 220px;
+    width: 270px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+#immagine1{
+     background-image: url(../img/monitor.jpg);
+     background-repeat: no-repeat;
+}
+#immagine2{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+}
